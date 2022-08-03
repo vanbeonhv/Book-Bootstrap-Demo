@@ -64,7 +64,7 @@ header .container .col-md-5 {
     padding-top: 4vmin 1vmin;
 }
 
-header .container .col-md-5 img{
+header .container .col-md-5 img {
     width: 90%;
 }
 
@@ -88,21 +88,21 @@ header .container .col-md-5 img{
     position: absolute;
     box-shadow: 0px 10px 32px rgba(0, 0, 0, 0.253);
     border-radius: 3px;
-    top: 5vmin;
-    left: -18vmin;
-    padding: 10vmin 5vmin 15vmin 10vmin ;
+    top: 8vmin;
+    width: 70vmin;
+    left: -26vmin;
+    padding: 10vmin 5vmin 15vmin 10vmin;
     background-color: #fff;
 }
 
 .section-1 .row .col-md-6 p {
-    color:rgba(0, 0, 0, 0.5)
+    color: rgba(0, 0, 0, 0.5)
 }
 
 /* Section-2 */
 .cover {
     background: url(/assets/background.jpeg);
     height: 55vmin;
-    width: 100%;
     background-position: -24rem -19rem;
     background-size: 150%;
     position: relative;
@@ -117,11 +117,115 @@ header .container .col-md-5 img{
 }
 
 .section-2 .content h1 {
-    font-size: 4vmin;
+    font-size: 8vmin;
     font-weight: 500;
 }
 
 .section-2 .content p {
     padding: 0 25vmin;
-    color: rgba(255, 255, 255, 0.8)
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 2vmin;
 }
+
+.number {
+    margin-top: -5.5rem;
+}
+
+.light-number {
+    position: relative;
+    padding: 2rem 4rem;
+    background: #fff;
+    margin: 0 1rem;
+    border-radius: 3px;
+    box-shadow: 0px 0.1rem 1rem rgba(255, 99, 71, 0.514);
+}
+
+.light-number h1 {
+    color: tomato;
+}
+
+.light-number p {
+    margin: 0;
+}
+
+.card {
+    margin: 0 2rem;
+}
+
+.purchase>h1 {
+    margin-top: 2rem;
+}
+
+.purchase .card-title {
+    padding: 1rem;
+    background-color: rgba(127, 255, 212, 0.178);
+}
+
+.card-text {
+    margin: 0 3rem;
+    font-size: 1.5rem;
+    width: 10em;
+    padding: 3rem 0;
+}
+
+.pricing {
+    padding: 24vmin 0;
+    background-color: rgba(127, 255, 212, 0.178);
+    border-top-left-radius: 140px;
+    border-top-right-radius: 140px;
+    display: flex;
+    justify-content: center;
+}
+
+.pricing h1 {
+    font-size: 6vmin;
+}
+
+.pricing a {
+    position: absolute;
+    bottom: 3rem;
+    padding: 0 2rem;
+    border-radius: 35px;
+
+}
+
+/* Section-3 */
+.section-3 {
+    margin-top: 15vmin;
+    background-image: var(--bggradient);
+    height: 70vmin;
+}
+
+.section-3 .col-md-12 h1 {
+    padding-top: 10vmin;
+    color: #fff;
+}
+
+.section-3 .col-md-12 p {
+    padding: 3vmin 20vmin;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.section-3 .row .col-md-6 {
+    padding-top: 10vmin;
+}
+
+.section-3 .desktop {
+    background-color: #fff;
+    display: inline-block;
+    padding: 0 5vmin;
+    border-radius: 30px;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.8)
+}
+
+.section-3 .desktop:hover {
+    opacity: 0.9;
+}
+
+/* Section 4 */
+
+/* Footer */
+footer {}
+
+footer .col-md-5 {}
