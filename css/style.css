@@ -101,7 +101,7 @@ header .container .col-md-5 img {
 
 /* Section-2 */
 .cover {
-    background: url(/assets/background.jpeg);
+    background: url(../assets/background.jpeg);
     height: 55vmin;
     background-position: -24rem -19rem;
     background-size: 150%;
